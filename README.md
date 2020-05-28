@@ -1,6 +1,6 @@
 # CS569 Workshop 01
-Create a new Angular project with Angular RouterModule support.
-Create a service with a method `getPosts()` that returns an observable with the following JSON:
+* Create a new Angular project with Angular RouterModule support.
+* Create a service with a method `getPosts()` that returns an observable with the following JSON:
 ```json
 [
   {
