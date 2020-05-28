@@ -57,7 +57,13 @@
 ```
 1. The root route will display posts' title in a re-usable `<post>` component.  
 2. Add a new route to display posts' body. Pass the body as extra state with the navigation.
-3. Implement a pipe to support a live search feature that filters down the posts list and display only posts that match the string users are searching for. 
+3. Implement an impure pipe to support a live search feature that filters down the posts list and display only posts that match the string users are searching for. 
+```html
+<div *ngFor="let post of posts | search:q">
+	<post [data]="post"></post>
+</div>
+
+```
   
 <p align="center">
   <img src="./screenshot.png" width="300" />
