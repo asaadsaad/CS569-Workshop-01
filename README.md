@@ -59,4 +59,6 @@ Create a service with a method `getPosts()` that returns an observable with the 
 2. Add a new route to display posts' body. Pass the body as extra state with the navigation.
 3. Implement a pipe to support a live search feature that filters down the posts list and display only posts that match the string users are searching for. 
   
-![Live Search](./screenshot.png)
+<p align="center">
+  <img src="./snapshot.png" width="200" />
+</p>
