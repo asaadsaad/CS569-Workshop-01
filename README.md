@@ -60,5 +60,5 @@ Create a service with a method `getPosts()` that returns an observable with the 
 3. Implement a pipe to support a live search feature that filters down the posts list and display only posts that match the string users are searching for. 
   
 <p align="center">
-  <img src="./snapshot.png" width="200" />
+  <img src="./screenshot.png" width="200" />
 </p>
